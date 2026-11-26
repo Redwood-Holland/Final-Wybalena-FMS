@@ -1,0 +1,5 @@
+PRAGMA foreign_keys = ON;
+CREATE TABLE IF NOT EXISTS paddock(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    paddock_name TEXT NOT NULL UNIQUE
+);
